@@ -30,7 +30,6 @@ public class UsuarioDAO {
 	} catch (SQLException e) {
 		this.conexao.rollback();
 		throw e;
-		
 	}
 }
 
